@@ -1,0 +1,27 @@
+html {
+    font-size: 6.25%;
+    font-family: "Work Sans", sans-serif;
+}
+body {
+    font-size: 16rem;
+    font-weight: normal;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.content {
+    max-width: 1216rem;
+    width: calc(100% - 48rem);
+    margin-inline: auto;
+}
